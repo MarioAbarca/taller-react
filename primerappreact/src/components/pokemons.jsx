@@ -6,7 +6,6 @@ function Pokemon(props){
     return(
         <div>
             <h1>Pokemon: {name}</h1>
-            <button onClick={() => setName('Harizard')}>Pushame</button>
         </div>
     );
 }
